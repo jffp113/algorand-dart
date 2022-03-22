@@ -5,7 +5,7 @@ part 'asset_holding_model.g.dart';
 @JsonSerializable(fieldRename: FieldRename.kebab)
 class AssetHolding {
   /// Number of units held.
-  final int amount;
+  final double amount;
 
   /// Asset ID of the holding.
   final int assetId;
